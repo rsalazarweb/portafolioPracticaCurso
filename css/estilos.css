@@ -1,0 +1,15 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+header{
+    background:pink;
+}
+/*Selector de etiqueta header - section - article - nav */
+/* selector descendente ejemplo nav > ol > li > a */
+/* selector de clase se identifica con un . , se puede duplicar*/
+/* .link */
+/* selector de id, se identifica con # solamente debe ser único */
+/* #portafolio */
