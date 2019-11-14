@@ -19,4 +19,25 @@ body
 h1,h2,h3,h4,h5,h6
 {
     font-family:'Fjalla One', sans-serif;
+    /*font-style: italic;*/
+    font-weight: normal;
+}
+
+h1
+{
+    font-size: 40px;
+    /*Espaciado entre letras */
+    letter-spacing:-.2px;
+    /*Alto de Linea */
+    line-height:1.5;
+    /*Transforma las letras, mayusculas, minusculas, etc */
+    /*text-transform:uppercase;*/
+}
+.hero{
+    height: 300px;
+}
+
+.project-details, .project-imageContainer
+{
+    width:500px;
 }
