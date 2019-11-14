@@ -11,6 +11,11 @@ valores */
 
 /* selector de id, se identifica con # solamente debe ser único */
 /* #portafolio */
+
+/*COlORES UTILIZADOS
+** Gris oscuro = #1d252c
+** Gris claro = #626262;
+** Background = #1b2127;*/
 body
 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -25,6 +30,7 @@ h1,h2,h3,h4,h5,h6
 
 h1
 {
+    color:#fff;
     font-size: 40px;
     /*Espaciado entre letras */
     letter-spacing:-.2px;
@@ -33,11 +39,32 @@ h1
     /*Transforma las letras, mayusculas, minusculas, etc */
     /*text-transform:uppercase;*/
 }
-.hero{
+
+h1 strong
+{
+    color: #026fff;
+}
+.hero
+{
+    background-image: url('../images/hero.jpg');
+    background-color:#1b2127;
+    background-size:500px 300px;
+    background-repeat:no-repeat;
+    background-position: right;
     height: 300px;
 }
 
 .project-details, .project-imageContainer
 {
     width:500px;
+}
+
+.header{
+    background-color: #1b2127;
+    color:#fff;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
 }
