@@ -3,10 +3,6 @@ selectores
 declaraciones
 propiedades
 valores */
-
-header{
-    background:pink;
-}
 /*Selector de etiqueta header - section - article - nav */
 /* selector descendente ejemplo nav > ol > li > a */
 
@@ -15,3 +11,12 @@ header{
 
 /* selector de id, se identifica con # solamente debe ser único */
 /* #portafolio */
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family:'Fjalla One', sans-serif;
+}
