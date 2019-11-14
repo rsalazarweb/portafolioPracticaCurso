@@ -27,7 +27,9 @@ h1,h2,h3,h4,h5,h6
     /*font-style: italic;*/
     font-weight: normal;
 }
-
+ol{
+    margin: 0;
+}
 h1
 {
     color:#fff;
@@ -38,6 +40,7 @@ h1
     line-height:1.5;
     /*Transforma las letras, mayusculas, minusculas, etc */
     /*text-transform:uppercase;*/
+    margin:0;
 }
 
 h1 strong
@@ -53,7 +56,12 @@ h1 strong
     background-position: right;
     height: 300px;
 }
-
+.project
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
 .project-details, .project-imageContainer
 {
     width:500px;
