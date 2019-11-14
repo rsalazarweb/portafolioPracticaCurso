@@ -28,9 +28,18 @@ h1,h2,h3,h4,h5,h6
     /*font-style: italic;*/
     font-weight: normal;
 }
-ol{
+ol,
+ul
+{
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
+figure
+{
+ margin: 0;
+}
+
 h1
 {
     color:#fff;
@@ -75,12 +84,59 @@ h1 strong
     width:500px;
 }
 
-.header{
+.header
+{
     background-color: #1b2127;
     color:#fff;
+    display: flex;
+    height:90px;
+    justify-content: space-between;
 }
 
-.header a{
+.header a
+{
     color:white;
     text-decoration: none;
 }
+.menu
+{
+    height: inherit;
+}
+
+.header ol
+{
+    display: flex;
+    height: inherit;
+}
+.header ol li
+{
+    height: inherit;
+}
+
+.header ol li a
+{
+    align-items: center;
+    display: flex;
+    height: inherit;
+    padding: 0 10px;
+}
+
+/* .flexbox
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap:nowrap; valor por defecto
+    flex-direction:column; valor por defecto
+    justify-content: space-around;
+    justify-content: space-evently;
+    align-items:flex-start; valor por defecto
+}
+
+.box
+{
+    width: 50px;
+    height: 50px;
+    margin:5px;
+    flex-shrink: 0;
+    align-self: flex-start;
+} */
