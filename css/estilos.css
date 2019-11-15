@@ -110,14 +110,17 @@ h2
 .hero
 {
     align-items: center;
-    background-image: url('../images/hero.jpg');
     background-color:#1b2127;
-    background-size:500px 300px;
-    background-repeat:no-repeat;
-    background-position: right;
     display: flex;
     height: 300px;
+    justify-content: space-between;
 }
+
+.hero-image
+{
+    object-fit: cover;
+}
+
 .portfolio
 {
     background: #fafafa;
@@ -181,6 +184,7 @@ h2
 .event-list
 {
   display: flex;  
+  flex-wrap: wrap;
 }
 .event-list-title{
     margin-left: 20px;
@@ -230,7 +234,7 @@ h2
     background-color: #056fff;
     color: white;
     display: flex;
-    height: 150px;
+    height: 180px;
     justify-content: space-between;
 }
 
@@ -295,6 +299,16 @@ h2
 .form-email h3
 {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    margin:0 auto;
+    width: 1000px;
+    flex-wrap: wrap;
 }
 /* .flexbox
 {
