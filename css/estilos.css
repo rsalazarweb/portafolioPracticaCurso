@@ -207,9 +207,9 @@ h2
     background-color: #f4fbff;
     border-radius: 10px;
     flex-shrink: 0;
-    margin: 10px;
+    margin: 1%;
     overflow: hidden;
-    width: 480px;
+    width: 48%;
 }
 .event-details
 {
@@ -425,13 +425,30 @@ h2
     {
         font-size: .8em;
     }
+
+    .event
+    {
+        flex-shrink:initial;
+        width: auto;
+    }
+
+    .event img
+    {
+        width: 100%;
+    }
 }
+
 
 @media screen and (max-width:480px)
 {
     .project-details
     {
         font-size: 12px;
+    }
+    .event-details
+    {
+        margin: -2em .5em .5em;
+        padding: 1em;
     }
 
 }
