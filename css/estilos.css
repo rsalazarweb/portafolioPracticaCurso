@@ -314,7 +314,8 @@ h2
     margin:0 auto;
     max-width: 1000px;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
+    flex: 1;
 }
 /* .flexbox
 {
@@ -343,11 +344,31 @@ h2
 
 }
 
-@media screen and (max-width:768px)
+@media screen and (max-width:767px)
 {
-    body
+    .header
     {
-        border:10px solid green;
+        display: block;
+        height: auto;
+    }
+
+    .header ol
+    {
+        display: block;
+    }
+
+    .header ol li
+    {
+        height: 50px;
+    }
+    .header a
+    {
+        justify-content: center;
+    }
+
+    .header .logo
+    {
+        text-align: center;
     }
 }
 
