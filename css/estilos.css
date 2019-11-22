@@ -350,7 +350,10 @@ h2
 
 @media screen and (max-width:1024px)
 {
-
+    .container
+    {
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width:767px)
@@ -449,6 +452,26 @@ h2
     {
         margin: -2em .5em .5em;
         padding: 1em;
+    }
+
+    .contact
+    {
+        display: block;
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+    }
+
+    .form-email button
+    {
+        margin: 1em auto;
+    }
+
+    .footer
+    {
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
     }
 
 }
