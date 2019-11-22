@@ -75,6 +75,7 @@ h2
     display: flex;
     height:70px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .header img{
     height: 50px;
@@ -114,6 +115,7 @@ h2
     display: flex;
     height: 300px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .hero-image
@@ -136,6 +138,7 @@ h2
     padding: 20px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .project-course,
 .project-date,
@@ -170,6 +173,7 @@ h2
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -236,6 +240,7 @@ h2
     display: flex;
     height: 180px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social
@@ -307,8 +312,9 @@ h2
     align-items: inherit;
     height: inherit;
     margin:0 auto;
-    width: 1000px;
+    max-width: 1000px;
     flex-wrap: wrap;
+    width: 100%;
 }
 /* .flexbox
 {
@@ -329,3 +335,29 @@ h2
     flex-shrink: 0;
     align-self: flex-start;
 } */
+
+/* Desktop first */
+
+@media screen and (max-width:1024px)
+{
+
+}
+
+@media screen and (max-width:768px)
+{
+    body
+    {
+        border:10px solid green;
+    }
+}
+
+@media screen and (max-width:480px)
+{
+
+}
+
+@media screen and (max-width:320px)
+{
+
+}
+
